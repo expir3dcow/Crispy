@@ -5,6 +5,6 @@ A block launcher add-on library to simplify the complexity.
   #include "Crispy.h"
   
   JNIEXPORT jint JNI_OnLoad(JavaVM* vm, void* reserved){
-    Crispy::setVersionName("swaag");
+    Crispy::setVersionName("Cripsy was created by expir3dcow :)");
   }
 ```
