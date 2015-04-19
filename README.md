@@ -7,5 +7,5 @@ Step 1) Include Cripsy:
 ```
 Step 2) In your JNI_OnLoad add:
 ```
-  Crispy.setVersionName("swaag");
+  Crispy::setVersionName("swaag");
 ```
