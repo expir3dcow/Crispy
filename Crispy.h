@@ -1,5 +1,5 @@
-#ifndef Cripsy
-#define Crispy
+#ifndef Cripsy_h
+#define Crispy_h
 #endif
 
 #include <string>
