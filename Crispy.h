@@ -15,7 +15,7 @@ string version_name = "Crispy v1.0";
 
 static string (*Name_Real)(void *p);
 
-string versionNameHook(){
+string versionNameHook(void *p){
   return version_name;
 }
 
