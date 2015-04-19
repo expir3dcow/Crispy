@@ -29,8 +29,28 @@ namespace Crispy{
   
   void setVersionName(string version){
     version_name = version;
-    void* handle = dlsym(RTLD_DEFAULT,"_ZN6Common20getGameVersionStringEv");
-    mcpelauncher_hook(handle,(void*)&versionNameHook,(void**)&Name_Real);
+    void* gameVersionSymbol = dlsym(RTLD_DEFAULT,"_ZN6Common20getGameVersionStringEv");
+    mcpelauncher_hook(gameVersionSymbol,(void*)&versionNameHook,(void**)&Name_Real);
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
