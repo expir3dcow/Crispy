@@ -1,6 +1,9 @@
 #include <string>
 #include <string.h>
-
+#include <jni.h>
+#include <android/log.h>
+#include <dlfcn.h>
+#include "mcpelauncher.h"
 
 string version_name = "Crispy v1.0";
 
